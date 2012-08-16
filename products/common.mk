@@ -93,6 +93,10 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
     vendor/cyanogen/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
     vendor/cyanogen/prebuilt/common/etc/profile:system/etc/profile \
+    vendor/cyanogen/prebuilt/common/etc/be_movie:system/etc/be_movie \
+    vendor/cyanogen/prebuilt/common/etc/be_photo:system/etc/be_photo \
+    vendor/cyanogen/prebuilt/common/app/BMKG.apk:system/app/BMKG.apk \
+    vendor/cyanogen/prebuilt/common/app/ics.apk:system/app/ics.apk \
     vendor/cyanogen/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
     vendor/cyanogen/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/cyanogen/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
@@ -101,8 +105,10 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/init.d/05mountsd:system/etc/init.d/05mountsd \
     vendor/cyanogen/prebuilt/common/etc/init.d/06mountdl:system/etc/init.d/06mountdl \
     vendor/cyanogen/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
+    vendor/cyanogen/prebuilt/common/etc/init.d/70zipalign:system/etc/init.d/70zipalign \
     vendor/cyanogen/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
     vendor/cyanogen/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/cyanogen/prebuilt/common/bin/zipalign:system/bin/zipalign \
     vendor/cyanogen/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
     vendor/cyanogen/prebuilt/common/bin/sysinit:system/bin/sysinit \
     vendor/cyanogen/prebuilt/common/xbin/htop:system/xbin/htop \
