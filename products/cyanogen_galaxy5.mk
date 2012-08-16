@@ -20,6 +20,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I5500 BUILD_ID=GRI40 BUILD_DISPL
 # Add LDPI assets, in addition to MDPI
 PRODUCT_LOCALES += ldpi mdpi
 
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/etc/iosched:system/bin/iosched \
+
 # Extra overlay for LDPI
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
 

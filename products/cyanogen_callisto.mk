@@ -23,8 +23,8 @@ PRODUCT_LOCALES += ldpi mdpi
 # Extra overlay for LDPI
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
 
-PRODUCT_PACKAGES += \
-    LilGUpdater
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/etc/iosched:system/bin/iosched \
 
 # Copy bootanimation
 PRODUCT_COPY_FILES +=  \

@@ -8,7 +8,7 @@ $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
 #
-# Setup device specific product configuration.
+# Setup device specific product configuration for cyanmobile
 #
 PRODUCT_NAME := cyanogen_passion
 PRODUCT_BRAND := google
