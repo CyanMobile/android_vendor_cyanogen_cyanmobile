@@ -1,50 +1,61 @@
-CyanogenMod
+CyanMobile
 ===========
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start gingerbread .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.com/)
-
+Patches are always welcome!
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android/CyanMobile, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the CyanMobile trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b gingerbread
+    repo init -u git://github.com/CyanMobile/android_cyanmobile.git -b gingerbread
 
 Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
+For more information on this Github Organization and what feature include in it, 
+please [read definitions](https://github.com/CyanMobile/android_cyanmobile/blob/gingerbread/Definitions.txt)
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
 
-Buildbot
---------
 
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
+Build CyanMobile rom for your device
+------------------------------------
 
-You can view the current build statuses at [buildbot.teamdouche.net](http://buildbot.teamdouche.net/)
+add "setprop ro.squadzone.build 1" (without quote) into init.rc or init*.rc of your device
+
+then must add below into your build.prop
+*******************************************
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=true
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=32m
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+debug.sf.hw=1
+persist.sys.themeId=ICStransV3 UOT
+persist.sys.themePackageName=com.uotkitchen.theme.icstransv3
+************************************************************
+
+"make sure your device kernel support with ksm,cleancache,frontswap and 
+6 Ioscheduler (deadline,noop,sio,bfq,cfq, and vr) to make some options working"
+
+see device/samsung/tass and vendor/cyanogenmod/products
+
+for prepare what needed to build full rom
+and write for your device....
+
+Nb: your overlay must same with this example device 
+if your device is ldpi (see device/samsung/tass/overlay)
+else if your device is mdpi (see device/samsung/gio/overlay)
+else if your device is hdpi (see device/zte/blade/overlay)
+and if you need to add another xml into overlay, make sure default overlay is untouched :)
