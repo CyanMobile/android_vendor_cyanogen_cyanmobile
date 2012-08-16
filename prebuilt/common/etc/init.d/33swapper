@@ -1,0 +1,4 @@
+#!/system/bin/sh
+rm /system/etc/sysctl.conf
+echo "vm.swappiness=10" > /system/etc/sysctl.conf
+chmod 644 /system/etc/sysctl.conf

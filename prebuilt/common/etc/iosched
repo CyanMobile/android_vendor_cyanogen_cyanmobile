@@ -1,0 +1,18 @@
+#!/system/bin/sh
+
+# lowmem tweaks by squadzone
+# DO NOT CHANGE
+if [ -e /data/property/persist.sys.ioscheduler ]
+  then
+       ios=`cat /data/property/persist.sys.ioscheduler`
+       echo $ios > /sys/block/mmcblk0/queue/scheduler
+       echo $ios > /sys/block/mtdblock0/queue/scheduler
+       echo $ios > /sys/block/mtdblock1/queue/scheduler
+       echo $ios > /sys/block/mtdblock2/queue/scheduler
+       echo $ios > /sys/block/mtdblock3/queue/scheduler
+       echo $ios > /sys/block/mtdblock4/queue/scheduler
+       echo $ios > /sys/block/mtdblock5/queue/scheduler
+       echo $ios > /sys/block/mtdblock6/queue/scheduler
+       echo $ios > /sys/block/mtdblock7/queue/scheduler
+       echo $ios > /sys/block/mtdblock8/queue/scheduler
+fi

@@ -1,0 +1,61 @@
+#!/system/bin/sh
+#
+# mount linux-swap from sd card
+
+# find SD Card
+for MMC_NUM in `seq 0 9`;
+do
+    MMC_TYPE=`cat /sys/block/mmcblk$MMC_NUM/device/type`
+    if [ "$MMC_TYPE" = "SD" ];
+    then
+        # 3rd partition of sdcard should be the linux-swap if exist
+        LINUX_SWAP_PART=/dev/block/mmcblk${MMC_NUM}p3
+
+        # wait for the device to settle
+        if [ "$LINUX_SWAP_PART" = "" ];
+        then
+            COUNT=2;
+            until [ -b "$LINUX_SWAP_PART" ] || [ $COUNT -lt 1 ];
+            do
+                sleep 1;
+                COUNT=$((COUNT-1));
+                break
+            done;
+        fi
+    fi
+done
+
+if [ -b "$LINUX_SWAP_PART" ];
+then
+    if [ -e /system/etc/init.d/98swapmarker ];
+    then
+        if [ -e /etc/sysctl.conf ];
+        then
+            log -p i -t swap2sd "Initializing one time swappiness of 90 to /etc/sysctl.conf";
+            $BB mount -o remount, rw /system;
+            $BB mount -o remount, rw /;
+            $BB rm -f /system/etc/init.d/98swapmarker;
+            $BB mount -o remount, ro /system;
+            log -p i -t swap2sd "Reboot for swappiness to take effect";
+            reboot;
+        else
+            log -p e -t swap2sd "/etc/sysctl.config not found, unable to set swappiness value";
+        fi;
+    else
+        $BB freeramdisk $LINUX_SWAP_PART;
+        if [ "$?" = 0 ];
+        then
+            $BB swapon $LINUX_SWAP_PART;
+            if [ "$?" = 0 ];
+            then
+                log -p i -t swap2sd "Swap partition activated";
+            else
+                log -p e -t swap2sd "Unable to activate swap, exiting";
+                exit 1;
+            fi;
+        else
+            log -p e -t swap2sd "Unable to freeramdisk, exiting";
+            exit 1;
+        fi;
+    fi;
+fi;

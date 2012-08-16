@@ -1,0 +1,25 @@
+# CyanogenMod Extras
+
+# Compcache - handle at boot
+service compcache /system/bin/handle_compcache
+    user root
+    group root
+    oneshot
+
+# Iosched
+service iosched /system/bin/iosched
+    user root
+    group root
+    oneshot
+
+# native a2sd
+service apps2sd /system/bin/apps2sd
+    user root
+    group root
+    oneshot
+
+# native sdx
+service sdextcache /system/bin/sdextcache
+    user root
+    group root
+    oneshot

@@ -1,0 +1,25 @@
+#!/system/bin/sh 
+#
+# move download cache to sdext
+
+domounts=0
+if [[ -e /data/property/persist.sys.dcache.allow ]];
+then
+    domounts=`cat /data/property/persist.sys.dcache.allow`
+fi;
+
+if [ "$domounts" == "0" ];
+then
+    log -p i -t mountsd "User has not enabled moving download cache.. skipping"
+    exit 0
+fi;
+
+if [ -e /dev/block/mmcblk0p2 ]
+then
+	sdpartx=$(df -k /dev/block/mmcblk0p2 | tail -n1 | tr -s ' ' | cut -d ' ' -f6)
+	rm -R $sdpartx/download
+	mkdir $sdpartx/download
+	chmod 0771 $sdpartx/download
+	chown 1000:2001 $sdpartx/download
+	mount -o bind $sdpartx/download /cache/download
+fi
