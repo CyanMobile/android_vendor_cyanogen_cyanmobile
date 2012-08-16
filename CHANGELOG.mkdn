@@ -1,7 +1,7 @@
 CyanMobile
 ===============
 
-Visit http://Squadzone.org/news for full changelogs and git access.
+Visit https://github.com/CyanMobile/android_cyanmobile/blob/gingerbread/Definitions.txt for full changelogs and git access.
 
 Maintainers:
 ------------
