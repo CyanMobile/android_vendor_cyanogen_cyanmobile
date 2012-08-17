@@ -14,8 +14,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 endif
 
 ifeq ($(BOARD_USES_QCOM_HARDWARE), true)
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    com.qc.hardware=true
+PRODUCT_PROPERTY_OVERRIDES += \
+        com.qc.hardware=true
+else
+PRODUCT_PROPERTY_OVERRIDES += \
+        com.qc.hardware=false
 endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
