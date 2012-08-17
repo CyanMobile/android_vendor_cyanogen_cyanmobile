@@ -8,8 +8,8 @@ Maintainers:
 * Tass (Galaxy Mini): Squadzone
 * Gio (Galaxy Gio): Squadzone Phiexz
 * Beni (Galaxy Fit): Squadzone Tj-style
-* Callisto (Galaxy 5510): Squadzone WillingMagic (No longer support)
-* Galaxy5 (Galaxy 5500): Squadzone Psyke83 Motafoca (No longer support)
+* Callisto (Galaxy 5510): Squadzone Psyke83 WillingMagic
+* Galaxy5 (Galaxy 5500): Squadzone Psyke83 Motafoca
 * ZTE Blade (Gen2): Squadzone
 * Huawei Ideos X3 (u8510): Squadzone
 
