@@ -13,14 +13,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=squadzone
 endif
 
-ifeq ($(BOARD_USES_QCOM_HARDWARE), true)
-PRODUCT_PROPERTY_OVERRIDES += \
-        com.qc.hardware=true
-else
-PRODUCT_PROPERTY_OVERRIDES += \
-        com.qc.hardware=false
-endif
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Used by BusyBox
