@@ -15,14 +15,6 @@ endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
-ifeq ($(BOARD_USES_QCOM_HARDWARE),true)	
-PRODUCT_PROPERTY_OVERRIDES += \	
-        com.qc.hardware=true
-else
-PRODUCT_PROPERTY_OVERRIDES += \
-        com.qc.hardware=false	
-endif
-
 # Used by BusyBox
 KERNEL_MODULES_DIR:=/system/lib/modules
 

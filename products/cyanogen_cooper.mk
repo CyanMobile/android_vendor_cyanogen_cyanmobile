@@ -20,6 +20,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cooper BUILD_ID=GRI40 BUILD_DISPLAY
 # Add LDPI assets, in addition to MDPI
 PRODUCT_LOCALES += mdpi
 
+PRODUCT_PROPERTY_OVERRIDES := \
+    com.qc.hardware=true
+
 PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/iosched:system/bin/iosched \
 
