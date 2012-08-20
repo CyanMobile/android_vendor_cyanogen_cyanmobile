@@ -23,7 +23,7 @@ PRODUCT_LOCALES += ldpi mdpi
 # Extra overlay for LDPI
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
 
-PRODUCT_PROPERTY_OVERRIDES := \
+PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true
 
 PRODUCT_COPY_FILES += \

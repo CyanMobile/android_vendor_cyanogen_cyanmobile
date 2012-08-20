@@ -38,7 +38,8 @@ PRODUCT_PROPERTY_OVERRIDES := \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.managed.roaming=1 \
     ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,120,122,110,119,995 \
-    ro.ril.emc.mode=2
+    ro.ril.emc.mode=2 \
+    com.qc.hardware=false
 
 PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/iosched:system/bin/iosched \
