@@ -31,9 +31,6 @@ PRODUCT_PACKAGES += Torch
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
-PRODUCT_PROPERTY_OVERRIDES := \
-    com.qc.hardware=false
-
 # Extra RIL settings
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.managed.roaming=1 \
