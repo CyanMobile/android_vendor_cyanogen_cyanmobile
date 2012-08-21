@@ -23,6 +23,13 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/crespo
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    com.qc.hardware=false
+
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/etc/iosched:system/bin/iosched \
+
+
 # Extra RIL settings
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.managed.roaming=1 \
@@ -35,7 +42,8 @@ PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
 #
-# Copy crespo specific prebuilt files
+# Copy legend specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/cyanogen/prebuilt/mdpi/media/shutdownanimation.zip:system/media/shutdownanimation.zip
