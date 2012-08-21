@@ -13,7 +13,7 @@ Maintainers:
 * ZTE Blade (Gen2): Squadzone
 * Huawei Ideos X3 (u8510): Squadzone
 * Htc Nexus One (N1) : TaichiN
-* LG Optimus One (p350) : none
+* LG Optimus Me (p350) : none
 
 Translators:
 ------------
