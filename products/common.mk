@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
     vendor/cyanogen/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
     vendor/cyanogen/prebuilt/common/etc/profile:system/etc/profile \
+    vendor/cyanogen/prebuilt/common/media/poweron.ogg:system/media/poweron.ogg \
     vendor/cyanogen/prebuilt/common/etc/be_movie:system/etc/be_movie \
     vendor/cyanogen/prebuilt/common/etc/be_photo:system/etc/be_photo \
     vendor/cyanogen/prebuilt/common/app/BMKG.apk:system/app/BMKG.apk \

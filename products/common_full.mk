@@ -16,6 +16,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/dictionaries
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=House_of_house.ogg \
+    ro.config.ringtone=CmxTone.ogg \
     ro.config.notification_sound=CyanMessage.ogg \
     ro.config.alarm_alert=CyanAlarm.ogg
