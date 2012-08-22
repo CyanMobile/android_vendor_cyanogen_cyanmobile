@@ -10,7 +10,7 @@ Maintainers:
 * Beni (Galaxy Fit): Tj-style Squadzone
 * Callisto (Galaxy 5510): Psyke83 WillingMagic
 * Galaxy5 (Galaxy 5500): Psyke83 Motafoca
-* Galaxy Nexus S (Crespo) : TaichiN
+* Nexus S (Crespo) : TaichiN
 * ZTE Blade (Gen2): Squadzone
 * Huawei Ideos X3 (u8510): Squadzone
 * Htc Nexus One (N1) : TaichiN
