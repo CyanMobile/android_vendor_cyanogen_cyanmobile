@@ -41,7 +41,7 @@
         android:baselineAligned="false"
         android:orientation="horizontal" >
 
-        <com.android.systemui.statusbar.PowerClock
+        <com.android.systemui.statusbar.clocks.PowerClock
             android:id="@+id/centerCloex"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:textSize="30sp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <com.android.systemui.statusbar.PowerDateView android:id="@+id/datestats"
+    <com.android.systemui.statusbar.dates.PowerDateView android:id="@+id/datestats"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -170,7 +170,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             >
-            <com.android.systemui.statusbar.CarrierLabel
+            <com.android.systemui.statusbar.carrierlabels.CarrierLabel
                  android:gravity="bottom|right|center"
                  android:textAppearance="@style/TextAppearance.StatusBar.Title"
                  android:singleLine="true"
@@ -206,7 +206,7 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
         >
-            <com.android.systemui.statusbar.CarrierLabel
+            <com.android.systemui.statusbar.carrierlabels.CarrierLabel
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -255,7 +255,7 @@
             android:layout_height="wrap_content"
             />
 
-        <com.android.systemui.statusbar.MusicControls android:id="@+id/exp_music_controls"
+        <com.android.systemui.statusbar.powerwidget.MusicControls android:id="@+id/exp_music_controls"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              />
