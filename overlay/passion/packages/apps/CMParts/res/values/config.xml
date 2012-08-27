@@ -6,4 +6,5 @@
     <!-- Whether or not to display search button settings -->
     <bool name="has_search_button">true</bool>
     <bool name="has_led_flash">true</bool>
+    <bool name="config_torch_available">true</bool>
 </resources>
