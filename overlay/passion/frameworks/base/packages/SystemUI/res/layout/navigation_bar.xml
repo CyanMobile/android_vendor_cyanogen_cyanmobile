@@ -36,7 +36,7 @@
       android:layout_height="match_parent"
       android:layout_width="match_parent">
 
-    <com.android.systemui.statusbar.CmBatteryNaviBar
+    <com.android.systemui.statusbar.batteries.CmBatteryNaviBar
         style="@style/StatusBar.BatteryBar"
         android:layout_gravity="top"
         android:layout_width="match_parent"
