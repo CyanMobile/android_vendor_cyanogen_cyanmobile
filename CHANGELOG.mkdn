@@ -100,7 +100,11 @@ CHANGELOG (notable new features)
 * Common : Change Bootanimation
 * Common : Change Shutdownanimation
 * Common : Change Bootsound
+* Common : New Notifications Design
+* Common : Intruder Alert is Life
+* Common : New Dialog Design
 * Common : Global Text Color Change
+* Common : Global App Background Change
 * Common : Soft Button Statusbar
 * Common : Navigation Button Bar
 * Common : Choose Navi Button with different styles
@@ -111,6 +115,7 @@ CHANGELOG (notable new features)
 * Common : Lock Volume Keys
 * Common : Volume Key Beeps
 * Common : Swap Volume Keys
+* Common : Task Switcher
 * Common : Loop Ringtone
 * Common : Flip Down To Mute Ringer/Snooze Alarm
 * Common : Increasing Ringtone Volume
@@ -154,7 +159,8 @@ CHANGELOG (notable new features)
 * Common : Battery Polling
 * Common : Low Mem Killer Option
 * Common : Scrolling Option
-* Common : IO Scheduler Option
+* Common : New I/O Scheduler Option
+* Common : New Dithering Support
 * Common : SD Read Ahead Size option
 * Common : Screen Off Max CPU Freq
 * Common : Calculator Improving
