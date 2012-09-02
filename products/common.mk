@@ -100,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/be_movie:system/etc/be_movie \
     vendor/cyanogen/prebuilt/common/etc/be_photo:system/etc/be_photo \
     vendor/cyanogen/prebuilt/common/app/BMKG.apk:system/app/BMKG.apk \
-    vendor/cyanogen/prebuilt/common/app/ics.apk:system/app/ics.apk \
     vendor/cyanogen/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
     vendor/cyanogen/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/cyanogen/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
