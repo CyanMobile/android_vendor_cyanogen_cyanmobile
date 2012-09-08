@@ -9,7 +9,7 @@ PRODUCT_PACKAGES += \
 include frameworks/base/data/sounds/AllAudio.mk
 
 # Theme packages
-# include vendor/cyanogen/products/themes.mk
+include vendor/cyanogen/products/themes.mk
 
 # Include extra dictionaries for LatinIME
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/dictionaries
