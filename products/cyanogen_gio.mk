@@ -26,9 +26,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
          GGUpdater
 
-PRODUCT_COPY_FILES += \
-    vendor/cyanogen/prebuilt/common/etc/init.d/iosched:system/bin/iosched \
-
 # Copy bootanimation
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip \

@@ -25,9 +25,6 @@ PRODUCT_VERSION_DEVICE_SPECIFIC :=
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true
 
-PRODUCT_COPY_FILES += \
-    vendor/cyanogen/prebuilt/common/etc/iosched:system/bin/iosched \
-
 PRODUCT_PACKAGES += \
     BladeUpdater
 

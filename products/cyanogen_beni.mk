@@ -29,9 +29,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
 PRODUCT_PACKAGES += \
     ShuvitUpdater
 
-PRODUCT_COPY_FILES += \
-    vendor/cyanogen/prebuilt/common/etc/init.d/iosched:system/bin/iosched \
-
 # Copy bootanimation
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip \

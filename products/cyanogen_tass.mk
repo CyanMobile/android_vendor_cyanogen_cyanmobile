@@ -26,9 +26,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true
 
-PRODUCT_COPY_FILES += \
-    vendor/cyanogen/prebuilt/common/etc/init.d/iosched:system/bin/iosched \
-
 PRODUCT_PACKAGES += \
     LilGUpdater
 

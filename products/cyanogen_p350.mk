@@ -26,9 +26,6 @@ PRODUCT_LOCALES += ldpi mdpi
 # Extra overlay for LDPI
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
 
-PRODUCT_COPY_FILES += \
-    vendor/cyanogen/prebuilt/common/etc/init.d/iosched:system/bin/iosched \
-
 # Release name and versioning
 PRODUCT_RELEASE_NAME := OptimusMe
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
