@@ -11,12 +11,12 @@ Maintainers:
 * Beni (Galaxy Fit): Tj-style Squadzone
 * Callisto (Galaxy 5510): Psyke83 WillingMagic
 * Galaxy5 (Galaxy 5500): Psyke83 Motafoca
-* Nexus S (Crespo) : TaichiN
-* ZTE Blade (Gen2): Squadzone
-* Huawei Ideos X3 (u8510): Squadzone
-* Htc Nexus One (N1) : TaichiN
-* LG Optimus Me (p350) : Keyur2Maru
-* LG Optimus One (p500) : Keyur2Maru
+* Crespo (Nexus S): TaichiN
+* Gen2 (ZTE Blade): Squadzone
+* u8510 (Huawei Ideos X3): Squadzone
+* Passion (Nexus One): TaichiN
+* p350 (LG Optimus Me): Keyur2Maru
+* p500 (LG Optimus One): Keyur2Maru
 
 Translators:
 ------------
