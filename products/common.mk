@@ -50,8 +50,6 @@ PRODUCT_PACKAGES += \
     CMFontsChanger \
     CMCompassCalibrator \
     BugReportSender \
-    CMBackgroundChooser \
-    CMAppBackgroundChooser \
     CMBootsound \
     CMContacts \
     CMTSCalibration \
