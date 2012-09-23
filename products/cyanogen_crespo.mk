@@ -23,6 +23,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/crespo
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Add Cyanbread theme
+PRODUCT_PACKAGES += Cyanbread
+
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=false
 
