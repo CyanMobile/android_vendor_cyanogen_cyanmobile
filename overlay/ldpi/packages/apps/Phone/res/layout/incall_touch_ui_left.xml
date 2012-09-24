@@ -79,6 +79,7 @@
                 style="@style/InCallRoundButtonContainer"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="10dip"
+                android:layout_marginTop="@dimen/call_banner_height"
                 android:visibility="gone">
             <ImageButton android:id="@+id/holdButton"
                     style="@style/InCallRoundTouchButton"
@@ -94,6 +95,7 @@
                 style="@style/InCallRoundButtonContainer"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="10dip"
+                android:layout_marginTop="@dimen/call_banner_height"
                 android:visibility="gone">
             <ImageButton android:id="@+id/swapButton"
                     style="@style/InCallRoundTouchButton"
@@ -111,6 +113,7 @@
                 style="@style/InCallRoundButtonContainer"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="10dip"
+                android:layout_marginTop="@dimen/call_banner_height"
                 android:visibility="gone">
             <ImageButton android:id="@+id/cdmaMergeButton"
                     style="@style/InCallRoundTouchButton"
