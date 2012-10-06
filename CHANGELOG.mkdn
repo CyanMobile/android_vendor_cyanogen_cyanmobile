@@ -17,6 +17,7 @@ Maintainers:
 * Passion (Nexus One): TaichiN
 * p350 (LG Optimus Me): Keyur2Maru
 * p500 (LG Optimus One): Keyur2Maru
+* Galaxy Sl ( Galaxy i9003 ) : Keyur2maru adipat
 
 Translators:
 ------------
