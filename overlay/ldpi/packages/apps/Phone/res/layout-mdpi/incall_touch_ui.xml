@@ -25,6 +25,7 @@
      Exactly one of these is visible at any given moment.
      -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
@@ -56,6 +57,46 @@
         android:visibility="gone"
         android:layout_alignParentBottom="true"
         />
+
+    <com.android.internal.widget.multiwaveview.MultiWaveView
+        android:id="@+id/incomingMultiWaveViewCallWidget"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="top"
+        android:visibility="gone"
+
+        prvandroid:targetDrawables="@array/lockscreen_targets_with_smsreject"
+        prvandroid:handleDrawable="@drawable/ic_lockscreen_handle"
+        prvandroid:waveDrawable="@*android:drawable/ic_lockscreen_outerring"
+        prvandroid:outerRadius="@*android:dimen/multiwaveview_target_placement_radius"
+        prvandroid:snapMargin="@*android:dimen/multiwaveview_snap_margin"
+        prvandroid:chevronDrawables="@array/lockscreen_chevron_drawables"
+        prvandroid:feedbackCount="3"
+        prvandroid:vibrationDuration="20"
+        />
+
+        <com.android.internal.widget.multiwaveview.GlowPadView
+            android:id="@+id/incomingGlowPadViewCallWidget"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="top"
+            android:visibility="gone"
+
+            prvandroid:targetDrawables="@array/lockscreen_targets_with_smsreject"
+            prvandroid:handleDrawable="@drawable/ic_lockscreen_handle"
+            prvandroid:outerRingDrawable="@*android:drawable/ic_lockscreen_outerring"
+            prvandroid:outerRadius="@*android:dimen/glowpadview_target_placement_radius"
+            prvandroid:innerRadius="@*android:dimen/glowpadview_inner_radius"
+            prvandroid:snapMargin="@*android:dimen/glowpadview_snap_margin"
+            prvandroid:feedbackCount="1"
+            prvandroid:vibrationDuration="20"
+            prvandroid:glowRadius="@*android:dimen/glowpadview_glow_radius"
+            prvandroid:pointDrawable="@*android:drawable/ic_lockscreen_glowdot"
+            />
 
     <!--
         (2) inCallControls: the widgets visible while a regular call
