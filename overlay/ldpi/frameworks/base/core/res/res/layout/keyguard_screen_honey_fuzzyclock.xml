@@ -29,33 +29,8 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
             android:singleLine="true"
             android:ellipsize="marquee"
             android:gravity="right|bottom"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textSize="22sp"
-            />
-
-        <TextView
-            android:id="@+id/custext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/carrier"
-            android:layout_marginLeft="24dip"
-            android:layout_marginRight="24dip"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            />
-
-        <!-- "emergency calls only" shown when sim is missing or PUKd -->
-        <TextView
-            android:id="@+id/emergencyCallText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/custext"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="0dip"
-            android:layout_marginRight="8dip"
-            android:layout_marginLeft="8dip"
-            android:text="@string/emergency_calls_only"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/white"
+            android:textSize="22sp"
             />
 
     <!-- time and date -->
@@ -63,12 +38,10 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
             android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/custext"
-            android:layout_marginTop="6dip"
+            android:layout_below="@id/carrier"
+            android:layout_marginTop="3dip"
             android:layout_marginLeft="20dip"
-            android:layout_marginRight="20dip"
-            android:paddingBottom="2dip"
-            >
+            android:layout_marginRight="20dip" >
 
             <TextView android:id="@+id/timeDisplay"
                 android:layout_width="wrap_content"
@@ -93,7 +66,7 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
                 android:ellipsize="none"
                 android:textSize="20sp"
                 android:layout_marginLeft="8dip"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:shadowColor="#C0000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
@@ -108,27 +81,32 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
             android:layout_below="@id/time"
             android:layout_marginLeft="24dip"
             android:layout_marginRight="24dip"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
             />
 
         <TextView
-            android:id="@+id/smssWidget"
+            android:id="@+id/custext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/date"
             android:layout_marginLeft="24dip"
             android:layout_marginRight="24dip"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
             />
 
+        <!-- "emergency calls only" shown when sim is missing or PUKd -->
         <TextView
-            android:id="@+id/callsWidget"
+            android:id="@+id/emergencyCallText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/smssWidget"
-            android:layout_marginLeft="24dip"
-            android:layout_marginRight="24dip"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@id/custext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginLeft="8dip"
+            android:text="@string/emergency_calls_only"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
             />
 
         <LinearLayout
@@ -136,7 +114,7 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_below="@id/callsWidget">
+            android:layout_below="@id/custext">
 
             <TextView
                 android:id="@+id/status_charging"
@@ -147,7 +125,7 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
                 android:layout_marginRight="24dip"
                 android:maxLines="2"
                 android:ellipsize="end"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:drawablePadding="4dip"
                 />
 
@@ -160,7 +138,7 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
                 android:layout_marginRight="24dip"
                 android:maxLines="2"
                 android:ellipsize="end"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:drawablePadding="4dip"
                 android:drawableLeft="@drawable/ic_lock_idle_alarm"
                 />
@@ -174,7 +152,7 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
                 android:layout_marginRight="24dip"
                 android:maxLines="2"
                 android:ellipsize="end"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:drawablePadding="4dip"
                 android:drawableLeft="@drawable/ic_lock_idle_calendar"
                 />
@@ -371,4 +349,27 @@ xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock"
             android:textAppearance="?android:attr/textAppearanceSmall"
             />
 
+        <TextView
+            android:id="@+id/smssWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+        <TextView
+            android:id="@+id/callsWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="right|bottom"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
 </RelativeLayout>
