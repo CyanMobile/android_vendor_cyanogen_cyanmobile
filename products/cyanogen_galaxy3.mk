@@ -1,5 +1,5 @@
-# Inherit AOSP device configuration for tass
-$(call inherit-product, device/samsung/galaxy5/device_galaxy5.mk)
+# Inherit AOSP device configuration for apollo
+$(call inherit-product, device/samsung/galaxy3/galaxy3.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
@@ -10,12 +10,12 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_galaxy5
-PRODUCT_BRAND := samsung_galaxy5
-PRODUCT_DEVICE := galaxy5
-PRODUCT_MODEL := GT-I5500
+PRODUCT_NAME := cyanogen_galaxy3
+PRODUCT_BRAND := samsung_galaxy3
+PRODUCT_DEVICE := galaxy3
+PRODUCT_MODEL := GT-I5800
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I5500 BUILD_ID=GRI40 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=samsung/GT-I5500/GT-I5500:2.3.6/GINGERBREAD/XWKTN:user/release-keys PRIVATE_BUILD_DESC="GT-I5500-user 2.3.6 GINGERBREAD XWKTN release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I5800 BUILD_ID=GRI40 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=samsung/GT-I5800/GT-I5800:2.3.8/GINGERBREAD/XWKTN:user/release-keys PRIVATE_BUILD_DESC="GT-I5800-user 2.3.8 GINGERBREAD XWKTN release-keys"
 
 # Add LDPI assets, in addition to MDPI
 PRODUCT_LOCALES += ldpi mdpi
@@ -35,6 +35,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/ldpi/media/shutdownanimation.zip:system/media/shutdownanimation.zip
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := Galaxy5
+PRODUCT_RELEASE_NAME := Galaxy3
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
