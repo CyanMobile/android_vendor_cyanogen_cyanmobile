@@ -29,7 +29,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_iyokan.mk \
     $(LOCAL_DIR)/cyanogen_jordan.mk \
     $(LOCAL_DIR)/cyanogen_galaxys2.mk \
-    $(LOCAL_DIR)/cyanogen_galaxysl.mk \
+    $(LOCAL_DIR)/cyanogen_galaxy3.mk \
     $(LOCAL_DIR)/cyanogen_galaxys2att.mk \
     $(LOCAL_DIR)/cyanogen_galaxysbmtd.mk \
     $(LOCAL_DIR)/cyanogen_galaxysmtd.mk \
