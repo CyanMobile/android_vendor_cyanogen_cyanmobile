@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Super-mega opticharger of doom
 # Shrinks apks by running pngcrush or optipng or pngout on png images
