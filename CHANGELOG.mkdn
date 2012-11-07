@@ -15,6 +15,7 @@ Maintainers:
 * Gen2 (ZTE Blade): Squadzone
 * u8510 (Huawei Ideos X3): Squadzone
 * Passion (Nexus One): TaichiN
+* Bravo (Desire GSM): island3r
 * p350 (LG Optimus Me): Keyur2Maru
 * p500 (LG Optimus One): Keyur2Maru
 * Galaxy Sl ( Galaxy i9003 ) : Keyur2maru adipat
