@@ -25,11 +25,10 @@ PRODUCT_RELEASE_NAME := OptimusBlack
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
-#
-# Copy prebuilt files
-#
+# Copy bootanimation
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/cyanogen/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/cyanogen/prebuilt/ldpi/media/shutdownanimation.zip:system/media/shutdownanimation.zip
 
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
