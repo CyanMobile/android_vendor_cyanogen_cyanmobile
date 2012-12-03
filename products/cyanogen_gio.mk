@@ -20,9 +20,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-S5660 BUILD_ID=GRI40 BUILD_DISPL
 # Add MDPI assets, in addition to LDPI
 PRODUCT_LOCALES += mdpi
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    com.qc.hardware=true
-
 PRODUCT_PACKAGES += \
          GGUpdater
 

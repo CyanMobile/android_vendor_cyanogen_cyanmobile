@@ -22,8 +22,8 @@ PRODUCT_RELEASE_NAME := Blade
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    com.qc.hardware=true
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/etc/iosched:system/bin/iosched \
 
 PRODUCT_PACKAGES += \
     BladeUpdater
