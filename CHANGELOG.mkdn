@@ -5,8 +5,8 @@ Visit https://github.com/CyanMobile/android_cyanmobile/blob/gingerbread/Definiti
 
 Maintainers:
 ------------
-* Tass (Galaxy Mini): Squadzone
-* Cooper (Galaxy Ace): EmoBoiix3 Squadzone
+* Tass (Galaxy Mini): Squadzone OldDroid
+* Cooper (Galaxy Ace): EmoBoiix3 Squadzone OldDroid
 * Gio (Galaxy Gio): Phiexz Squadzone OldDroid
 * Beni (Galaxy Fit): Tj-style Squadzone Speed_bot
 * Callisto (Galaxy 5510): Psyke83 WillingMagic
