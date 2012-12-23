@@ -7,8 +7,8 @@ Maintainers:
 ------------
 * Tass (Galaxy Mini): Squadzone
 * Cooper (Galaxy Ace): EmoBoiix3 Squadzone
-* Gio (Galaxy Gio): Phiexz Squadzone OldDroid
-* Beni (Galaxy Fit): Tj-style Squadzone Speed_bot
+* Gio (Galaxy Gio): Phiexz OldDroid
+* Beni (Galaxy Fit): Tj-style Speed_bot
 * Callisto (Galaxy 5510): Psyke83 WillingMagic
 * Galaxy5 (Galaxy 5500): Psyke83 Motafoca
 * Crespo (Nexus S): TaichiN
@@ -22,6 +22,7 @@ Maintainers:
 * p970 (LGE Optimus Black) : Keyur2maru
 * z71 (Commtiva) : ardX
 * Sunfire (Motorolla Photon) : thekraven
+* u8800 (Huawei Ideos X5) : ezeteze
 
 Translators:
 ------------
