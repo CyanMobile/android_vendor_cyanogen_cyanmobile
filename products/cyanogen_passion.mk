@@ -28,9 +28,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/passion
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
-# Add Cyanbread theme
-PRODUCT_PACKAGES += Cyanbread
-
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
