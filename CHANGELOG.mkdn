@@ -21,6 +21,18 @@ Maintainers:
 * buzz (HTC Wildfire) : Keyur2Maru
 * p970 (LGE Optimus Black) : Keyur2maru
 * z71 (Commtiva) : ardX
+* Optimus Boston : ardX
+* Orange Boston : ardX
+* Gigabyte Gsmart G1305 : ardX
+* Motorola XT502 : ardX
+* Apanda A60 : ardX
+* Vibo A688 : ardX
+* Chinavision Excalibur : ardX
+* Muchtel A1 : ardX
+* Wellcom A88 : ardX
+* Cincinnati Bell Blaze : ardX
+* Spice Mi-300 : ardX
+* Nexian A-890 Journey : ardX
 * Sunfire (Motorolla Photon) : thekraven
 * u8800 (Huawei Ideos X5) : ezeteze
 
