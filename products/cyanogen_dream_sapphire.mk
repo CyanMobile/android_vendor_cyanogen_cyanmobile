@@ -44,10 +44,14 @@ PRODUCT_VERSION_DEVICE_SPECIFIC :=
 # Use the audio profile hack
 WITH_DS_HTCACOUSTIC_HACK := true
 
+# Copy bootanimation
+PRODUCT_COPY_FILES +=  \
+    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/cyanogen/prebuilt/mdpi/media/shutdownanimation.zip:system/media/shutdownanimation.zip
+
 #
 # Copy DS specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip \
     vendor/cyanogen/prebuilt/dream_sapphire/etc/AudioPara_dream.csv:system/etc/AudioPara_dream.csv \
     vendor/cyanogen/prebuilt/dream_sapphire/etc/AudioPara_sapphire.csv:system/etc/AudioPara_sapphire.csv
