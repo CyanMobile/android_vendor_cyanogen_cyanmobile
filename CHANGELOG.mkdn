@@ -34,7 +34,8 @@ Maintainers:
 * Cincinnati Bell Blaze : ardX
 * Spice Mi-300 : ardX
 * Nexian A-890 Journey : ardX
-* Sunfire (Motorolla Photon) : thekraven
+* Sunfire (Motorola Photon) : thekraven
+* Jordan (Motorola Defy) : TaichiN
 * u8800 (Huawei Ideos X5) : ezeteze
 
 Translators:
