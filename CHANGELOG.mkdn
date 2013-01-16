@@ -20,6 +20,7 @@ Maintainers:
 * p500 (LGE Optimus One): Keyur2Maru
 * buzz (HTC Wildfire) : Keyur2Maru
 * p970 (LGE Optimus Black) : Keyur2maru
+* sapphire ( HTC Dream Sapphire ) : Keyur2maru
 * z71 (Commtiva) : ardX
 * Optimus Boston : ardX
 * Orange Boston : ardX
@@ -33,7 +34,8 @@ Maintainers:
 * Cincinnati Bell Blaze : ardX
 * Spice Mi-300 : ardX
 * Nexian A-890 Journey : ardX
-* Sunfire (Motorolla Photon) : thekraven
+* Sunfire (Motorola Photon) : thekraven
+* Jordan (Motorola Defy) : TaichiN
 * u8800 (Huawei Ideos X5) : ezeteze
 
 Translators:
