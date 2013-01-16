@@ -16,11 +16,12 @@ Maintainers:
 * u8510 (Huawei Ideos X3): Squadzone
 * Passion (Nexus One): TaichiN
 * Bravo (Desire GSM): island3r
-* p350 (LGE Optimus Me): Keyur2Maru
-* p500 (LGE Optimus One): Keyur2Maru
-* buzz (HTC Wildfire) : Keyur2Maru
+* p350 (LGE Optimus Me): keyur2Maru
+* p500 (LGE Optimus One): leyur2Maru
+* buzz (HTC Wildfire) : keyur2Maru
 * p970 (LGE Optimus Black) : Keyur2maru
-* sapphire ( HTC Dream Sapphire ) : Keyur2maru
+* p920 (LGE Optimus 3D) : keyur2maru
+* sapphire ( HTC Dream Sapphire ) : keyur2maru
 * z71 (Commtiva) : ardX
 * Optimus Boston : ardX
 * Orange Boston : ardX
