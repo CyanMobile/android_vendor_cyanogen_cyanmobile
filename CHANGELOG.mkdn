@@ -6,15 +6,17 @@ Visit https://github.com/CyanMobile/android_cyanmobile/blob/gingerbread/Definiti
 Maintainers:
 ------------
 * Tass (Galaxy Mini): Squadzone
-* Cooper (Galaxy Ace): EmoBoiix3 Squadzone
+* Gen2 (ZTE Blade): Squadzone
+* u8510 (Huawei Ideos X3): Squadzone
+* leo (HTC HD2) : Squadzone
+* Crespo (Nexus S): TaichiN
+* Passion (Nexus One): TaichiN
+* Jordan (Motorola Defy) : TaichiN
+* Cooper (Galaxy Ace): EmoBoiix3
 * Gio (Galaxy Gio): Phiexz OldDroid
 * Beni (Galaxy Fit): Tj-style Speed_bot
 * Callisto (Galaxy 5510): Psyke83 WillingMagic
 * Galaxy5 (Galaxy 5500): Psyke83 Motafoca
-* Crespo (Nexus S): TaichiN
-* Gen2 (ZTE Blade): Squadzone
-* u8510 (Huawei Ideos X3): Squadzone
-* Passion (Nexus One): TaichiN
 * Bravo (Desire GSM): island3r
 * p350 (LGE Optimus Me): keyur2Maru
 * p500 (LGE Optimus One): leyur2Maru
@@ -36,7 +38,6 @@ Maintainers:
 * Spice Mi-300 : ardX
 * Nexian A-890 Journey : ardX
 * Sunfire (Motorola Photon) : thekraven
-* Jordan (Motorola Defy) : TaichiN
 * u8800 (Huawei Ideos X5) : ezeteze
 
 Translators:
