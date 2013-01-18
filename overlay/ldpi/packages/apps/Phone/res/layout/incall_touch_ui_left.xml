@@ -142,7 +142,7 @@
                         style="@style/InCallTouchButton"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/as_ic_in_call_touch_end"
+                        android:background="@drawable/endbutton_background"
                         />
             </LinearLayout>
             <LinearLayout android:id="@+id/inCallControlsRow2"
