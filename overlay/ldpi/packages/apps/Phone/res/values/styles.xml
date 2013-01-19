@@ -173,10 +173,8 @@
         <item name="android:background">@drawable/incall_button</item>
         <item name="android:layout_marginTop">0dip</item>
         <item name="android:layout_marginBottom">0dip</item>
-        <item name="android:layout_marginLeft">8dip</item>
-        <item name="android:layout_marginRight">8dip</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_marginRight">0dip</item>
         <item name="android:singleLine">true</item>
         <item name="android:ellipsize">marquee</item>
     </style>
@@ -187,10 +185,8 @@
         <item name="android:background">@drawable/incall_toggle_button</item>
         <item name="android:layout_marginTop">0dip</item>
         <item name="android:layout_marginBottom">0dip</item>
-        <item name="android:layout_marginLeft">8dip</item>
-        <item name="android:layout_marginRight">8dip</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_marginRight">0dip</item>
         <item name="android:singleLine">true</item>
         <item name="android:ellipsize">marquee</item>
     </style>
@@ -198,20 +194,20 @@
     <!-- Small round ImageButtons at the upper corners of the in-call onscreen touch UI. -->
     <style name="InCallRoundTouchButton">
         <item name="android:gravity">center</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/incall_round_button</item>
+        <item name="android:layout_width">@dimen/as_jb_icon_size_width</item>
+        <item name="android:layout_height">@dimen/as_jb_icon_size_height</item>
+        <item name="android:background">@drawable/incall_button</item>
     </style>
 
     <!-- Text label next to the small round ImageButtons at the upper
          corners of the in-call onscreen touch UI. -->
     <style name="InCallRoundButtonLabel">
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">0sp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">5dip</item>
-        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_marginRight">0dip</item>
     </style>
 
     <!-- Style for the LinearLayout used to hold the ImageButton and
@@ -220,8 +216,8 @@
     <style name="InCallRoundButtonContainer">
         <item name="android:orientation">horizontal</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/as_jb_icon_size_width</item>
+        <item name="android:layout_height">@dimen/as_jb_icon_size_height</item>
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_marginTop">0dip</item>
     </style>
