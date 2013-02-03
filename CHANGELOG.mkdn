@@ -19,7 +19,7 @@ Maintainers:
 * Galaxy5 (Galaxy 5500): Psyke83 Motafoca
 * Bravo (Desire GSM): island3r
 * p350 (LGE Optimus Me): keyur2Maru
-* p500 (LGE Optimus One): leyur2Maru
+* p500 (LGE Optimus One): keyur2Maru
 * buzz (HTC Wildfire) : keyur2Maru
 * p970 (LGE Optimus Black) : Keyur2maru
 * p920 (LGE Optimus 3D) : keyur2maru
@@ -39,6 +39,7 @@ Maintainers:
 * Nexian A-890 Journey : ardX
 * Sunfire (Motorola Photon) : thekraven
 * u8800 (Huawei Ideos X5) : ezeteze
+* Ace (HTC Desire HD) : AndyFox2013
 
 Translators:
 ------------
