@@ -5,19 +5,20 @@ Visit https://github.com/CyanMobile/android_cyanmobile/blob/gingerbread/Definiti
 
 Maintainers:
 ------------
-* Tass (Galaxy Mini): Squadzone
+* Tass (Samsung Galaxy Mini): Squadzone
 * Gen2 (ZTE Blade): Squadzone
 * u8510 (Huawei Ideos X3): Squadzone
 * leo (HTC HD2) : Squadzone
-* Crespo (Nexus S): TaichiN
-* Passion (Nexus One): TaichiN
+* Passion (HTC Nexus One): TaichiN
+* Crespo (Samsung Nexus S): TaichiN
 * Jordan (Motorola Defy) : TaichiN
-* Cooper (Galaxy Ace): EmoBoiix3
-* Gio (Galaxy Gio): Phiexz OldDroid
-* Beni (Galaxy Fit): Tj-style Speed_bot
-* Callisto (Galaxy 5510): Psyke83 WillingMagic
-* Galaxy5 (Galaxy 5500): Psyke83 Motafoca
-* Bravo (Desire GSM): island3r
+* Jordan_plus (Motorola Defy+) : TaichiN
+* Cooper (Samsung Galaxy Ace): EmoBoiix3
+* Gio (Samsung Galaxy Gio): Phiexz OldDroid
+* Beni (Samsung Galaxy Fit): Tj-style Speed_bot
+* Callisto (Samsung Galaxy 5510): Psyke83 WillingMagic
+* Galaxy5 (Samsung Galaxy 5500): Psyke83 Motafoca
+* Bravo (HTC Desire GSM): island3r
 * p350 (LGE Optimus Me): keyur2Maru
 * p500 (LGE Optimus One): keyur2Maru
 * buzz (HTC Wildfire) : keyur2Maru
@@ -40,6 +41,7 @@ Maintainers:
 * Sunfire (Motorola Photon) : thekraven
 * u8800 (Huawei Ideos X5) : ezeteze
 * Ace (HTC Desire HD) : AndyFox2013
+* Totoro (Samsung Galaxy Y) : Whitexp
 
 Translators:
 ------------
