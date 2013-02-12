@@ -18,16 +18,20 @@ PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := totoro
 PRODUCT_MODEL := GT-S5360
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=totoro BUILD_ID=GRWK74 BUILD_FINGERPRINT=samsung/GT-S5360/GT-S5360:2.3.4/GINGERBREAD/XXKPH:user/test-keys PRIVATE_BUILD_DESC="GT-S5360-user 2.3.7 GINGERBREAD XXKPH test-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-S5360 BUILD_ID=GRI40 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=samsung/GT-S5360/GT-S5360:2.3.6/GINGERBREAD/XWKTN:user/release-keys PRIVATE_BUILD_DESC="GT-S5360-user 2.3.6 GINGERBREAD XWKTN release-keys"
 
-# Release name and versioning
-PRODUCT_RELEASE_NAME := Totoro
-PRODUCT_VERSION_DEVICE_SPECIFIC :=
--include vendor/cyanogen/products/common_versions.mk
+# Add LDPI assets, in addition to MDPI
+PRODUCT_LOCALES += ldpi mdpi
 
-#
-# Copy legend specific prebuilt files
-#
+# Extra overlay for LDPI
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
+
+# Copy bootanimation
 PRODUCT_COPY_FILES +=  \
      vendor/cyanogen/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip \
      vendor/cyanogen/prebuilt/ldpi/media/shutdownanimation.zip:system/media/shutdownanimation.zip
+
+# Release name and versioning
+PRODUCT_RELEASE_NAME := GalaxyYoung
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
