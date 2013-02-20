@@ -58,6 +58,8 @@ PRODUCT_PACKAGES += \
     SMSMorse \
     SMSBarrage \
     TaskMan \
+    installd \
+    libdiskusage \
     VideoLiveWallpapers \
     screenshot \
     CMScreenshot \
