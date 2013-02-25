@@ -13,6 +13,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/jordan
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Build GanOptimizer
+PRODUCT_PACKAGES += GanOptimizer
+
 #
 # Setup device specific product configuration.
 #
