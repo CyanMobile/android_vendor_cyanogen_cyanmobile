@@ -42,6 +42,7 @@ Maintainers:
 * u8800 (Huawei Ideos X5) : ezeteze
 * Ace (HTC Desire HD) : AndyFox2013
 * Totoro (Samsung Galaxy Y) : Whitexp
+* Aries (Samsung Galaxy SB Mtd) : Whitexp
 
 Translators:
 ------------
